@@ -1,0 +1,114 @@
+/* * {
+    box-sizing: border-box;
+
+} */
+body > div {
+    background-color: blanchedalmond;
+    position: relative;
+    height: 1500px;
+}
+
+h1 {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ACC3A6;
+    color: #fff;
+    top: 0px;
+}
+
+
+h2 {
+    font-size: 16px;
+    padding: 5px;
+    background-color: #ACC3A6;
+    top: 0px;
+}
+
+h3 {
+    font-size: 13px;
+    top: 0px;
+}
+
+
+h4 {
+    font-size: 13px;
+    left: 20px;
+}
+
+/* .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ACC3A6;
+    color: #fff; 
+} */
+
+
+.mainMenu {
+    justify-content: flex-start;
+}
+
+p {
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* .navrow {
+display: flex;
+gap: 1em;
+font-size: 18px;
+} */
+
+/* .image{
+width: 5%;
+max-width: 12%;
+display: inline-block;
+margin-left: 10px
+} */
+
+/* 
+.column1 {
+    float: left;
+    width: 30%;
+    height: 20px;
+    padding: 5px;
+}
+
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+*/
+
+
+.productOptions {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    
+    
+}
+
+.productPage {
+    border-radius: 8px;
+    
+}
+
+.socialMediaTags {
+    flex-direction: row;
+    display: flex;
+    gap: 3em;
+    justify-content: space-evenly;
+    
+}
+
+/* img {
+    max-width: fit-content;
+} */
+.instragamPosts {
+    max-width: min-content;
+    top: 400px;
+}
